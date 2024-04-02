@@ -15,7 +15,7 @@ updates:
       time-of-day: "00:30" 
     target-branch: "main"
     reviewers:
-      - "gopal-deshmane-amla/"github-repo"
+      - "gopal-deshmane-amla/github-repo"
 
     vulnerability-alerts:
      schedule:
