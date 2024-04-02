@@ -24,4 +24,4 @@ updates:
       interval: "weekly"  # Change to monthly for vulnerability updates
     target-branch: "main"
     reviewers:
-      - "gopal-deshmane-amla/github-repo"
+      - "gopal-deshmane-amla"
