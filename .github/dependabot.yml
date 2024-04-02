@@ -1,0 +1,23 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: "packages.config/"
+    schedule:
+      interval: "monthly"
+      months: [1, 4, 7, 10] 
+      days-of-month: [2]   # Updates on the 2nd day of every quarter (January, April, July, October)
+      month-days-offset: 0  # Start counting days from the beginning of the month
+      time-of-day: "00:30" 
+    target-branch: "main"
+    reviewers:
+      - "gopal-deshmane-amla/"github-repo"
+
+    vulnerability-alerts:
+     schedule:
+      interval: "weekly"
+       day-of-week: [4] 
