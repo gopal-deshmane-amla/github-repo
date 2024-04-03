@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: nuget
-    directory: "packages.config/"
+    directory: "github-repo/packages.config/"
     schedule:
       interval: "monthly"
       months: [1, 4, 7, 10] 
