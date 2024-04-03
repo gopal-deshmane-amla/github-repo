@@ -8,16 +8,16 @@ updates:
   - package-ecosystem: nuget
     directory: "packages.config/"
     schedule:
-      interval: "custom"
-      # months: [1, 4, 7, 10] 
+      interval: "monthly"
+      months: [1, 4, 7, 10] 
       days-of-month: [2]   # Updates on the 2nd day of every quarter (January, April, July, October)
       month-days-offset: 0  # Start counting days from the beginning of the month
       time-of-day: "00:30" 
     target-branch: "main"
     reviewers:
-      - "gopal-deshmane-amla/github-repo"
+      - "gopal-deshmane-amla"
 
-    vulnerability-alerts:
+    vulnerability:
   - package-ecosystem: nuget
     directory: "github-repo"
     schedule:
