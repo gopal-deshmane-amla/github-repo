@@ -4,21 +4,7 @@ updates:
     directory: "/"
     schedule:
         internval: "weekly"
-        day: "monday"
-        time: "07:57"
-        timezone: "America/New_York"
+        day: "wednesday"
+        time: "16:50"
     open-pull-requests-limit: 2
-    ignore:
-        -dependency-name: "minimatch"
-        versions: ["^3.x"]
 
-- package-ecosystem: "bundler"
-  directory: "/"
-  schedule:
-    interval: "monthly"
-    time: "07:57"
-    timezone: "America/New_York"
-open-pull-requests-limit: 2
-ignore:
-    -dependency-name: "nokogiri"
-    versions: "~1.13.5"    
