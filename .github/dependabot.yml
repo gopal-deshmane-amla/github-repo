@@ -6,5 +6,5 @@ updates:
         interval: "daily"
         # day: "wednesday"
         time: "18:59"
-     open-pull-requests-limit: 5
+     open-pull-requests-limit: 2
 
