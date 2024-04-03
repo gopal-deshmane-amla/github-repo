@@ -1,34 +1,35 @@
+# version: 2
+# updates:
+#   - package-ecosystem: nuget
+#     directory: "Projects/project.ad/packages.config/"
+#     schedule:
+#         interval: "daily"
+#         # day: "wednesday"
+#         time: "19:25"
+#     open-pull-requests-limit: 2
+
 version: 2
 updates:
   - package-ecosystem: nuget
     directory: "Projects/project.ad/packages.config/"
     schedule:
-        interval: "daily"
-        # day: "wednesday"
-        time: "19:25"
+      interval: "monthly"
+      months: [1, 4, 7, 10] 
+      days-of-month: [3]   # Updates on the 2nd day of every quarter (January, April, July, October)
+      month-days-offset: 0  # Start counting days from the beginning of the month
+      time-of-day: "20:20" 
     open-pull-requests-limit: 2
+    target-branch: "main"
+    reviewers:
+      - "gopal-deshmane-amla"
 
-#     version: 2
-# updates:
-#   - package-ecosystem: nuget
-#     directory: "/"
-#     schedule:
-#       interval: "monthly"
-#       months: [1, 4, 7, 10] 
-#       days-of-month: [2]   # Updates on the 2nd day of every quarter (January, April, July, October)
-#       month-days-offset: 0  # Start counting days from the beginning of the month
-#       time-of-day: "16:00" 
-#     target-branch: "main"
-#     reviewers:
-#       - "gopal-deshmane-amla"
-
-#     vulnerability:
-#   - package-ecosystem: nuget
-#     directory: "github-repo"
-#     schedule:
-#       interval: "weekly"  # Change to monthly for vulnerability updates
-#     target-branch: "main"
-#     reviewers:
-#       - "gopal-deshmane-amla"
+    vulnerability:
+  - package-ecosystem: nuget
+    directory: "github-repo"
+    schedule:
+      interval: "weekly"  # Change to monthly for vulnerability updates
+    target-branch: "main"
+    reviewers:
+      - "gopal-deshmane-amla"
 
 
