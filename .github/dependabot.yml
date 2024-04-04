@@ -1,16 +1,17 @@
+
 version: 2
 updates:
   - package-ecosystem: nuget
     directory: "Projects/project.ad/packages.config/"
     schedule:
-        interval: "monthly"
-        months: [1, 4, 7, 10]
-        days-of-month: [3]
-        month-days-offset: 0
-        time-of-day: "14:06"
+        interval: "daily"
         # day: "wednesday"
-        # time: "19:25"
+        time: "14:15"
+    open-pull-requests-limit: 4
 
+
+    
+    
 # version: 2
 # updates:
 #   - package-ecosystem: nuget
