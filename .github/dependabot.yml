@@ -1,9 +1,0 @@
-
-version: 2
-updates:
-  - package-ecosystem: nuget
-    directory: "Projects/project.ad/packages.config/"
-    schedule:
-        interval: "daily"
-        # day: "wednesday"
-        time: "19:25"
