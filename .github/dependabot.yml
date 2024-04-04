@@ -3,7 +3,10 @@ updates:
   - package-ecosystem: nuget
     directory: "Projects/project.ad/packages.config/"
     schedule:
-        interval: "daily"
+        interval: "monthly"
+        months: [1, 4, 7, 10]
+        days-of-month: [3]
+        month-days-offset: 0 
         # day: "wednesday"
         time: "19:25"
 
