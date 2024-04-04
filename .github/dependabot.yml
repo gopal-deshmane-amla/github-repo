@@ -9,7 +9,14 @@ updates:
         time: "14:15"
     open-pull-requests-limit: 4
 
-
+    vulnerability:
+  - package-ecosystem: nuget
+    directory: "Projects/project.ad/packages.config/"
+    schedule:
+      interval: "weekly"  # Change to monthly for vulnerability updates
+    target-branch: "main"
+    # reviewers:
+    #   - "MRRSoft/znode-base-maintainers"
     
     
 # version: 2
