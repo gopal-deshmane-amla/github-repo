@@ -11,7 +11,7 @@ updates:
 
     vulnerability:
   - package-ecosystem: nuget
-    directory: "Projects/project.ad/packages.config/"
+    directory: "Projects/"
     schedule:
       interval: "weekly"  # Change to monthly for vulnerability updates
     target-branch: "main"
