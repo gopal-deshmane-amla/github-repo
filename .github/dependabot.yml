@@ -6,9 +6,10 @@ updates:
         interval: "monthly"
         months: [1, 4, 7, 10]
         days-of-month: [3]
-        month-days-offset: 0 
+        month-days-offset: 0
+        time-of-day: "14:06"
         # day: "wednesday"
-        time: "19:25"
+        # time: "19:25"
 
 # version: 2
 # updates:
