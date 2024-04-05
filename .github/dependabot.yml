@@ -11,6 +11,9 @@ updates:
         interval: "daily"
         # day: "wednesday"
         time: "15:41"
+    target-branch: "dev"
+    reviewers:
+      - "MRRSoft/znode-base-maintainers"
 
 
       
