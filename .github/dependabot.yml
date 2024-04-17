@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "Projects/project.ad/packages.config/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
       time: "13:40"
         # day: "wednesday"
     target-branch: "main"
@@ -16,10 +16,10 @@ updates:
     #   - "MRRSoft/znode-base-maintainers"
 
   - package-ecosystem: nuget
-    directory: "Projects/"    
+    directory: "."    
     schedule:
       interval: "daily"
-      time: "13:41"
+      time: "19:00"
     target-branch: "main"
       
       
@@ -30,4 +30,4 @@ updates:
 #     schedule:
 #         interval: "daily"
 #         # day: "wednesday"
-#         time: "19:25"
+#         time: "19:00"
