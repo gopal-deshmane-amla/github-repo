@@ -18,7 +18,7 @@ updates:
     directory: "Projects/"    
     schedule:
       interval: "daily"
-      time: "12:07"
+      time: "01:13"
     target-branch: "main"
       
       
