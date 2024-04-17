@@ -9,16 +9,17 @@ updates:
     directory: "Projects/project.ad/packages.config/" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "13:40"
         # day: "wednesday"
     target-branch: "main"
-    reviewers:
-      - "MRRSoft/znode-base-maintainers"
+    # reviewers:
+    #   - "MRRSoft/znode-base-maintainers"
 
   - package-ecosystem: nuget
     directory: "Projects/"    
     schedule:
       interval: "daily"
-      time: "13:32"
+      time: "13:41"
     target-branch: "main"
       
       
