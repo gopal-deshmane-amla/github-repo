@@ -16,10 +16,10 @@ updates:
     #   - "MRRSoft/znode-base-maintainers"
 
   - package-ecosystem: nuget
-    directory: "."    
+    directory: "/"    
     schedule:
       interval: "daily"
-      time: "06:50"
+      time: "09:38"
     target-branch: "main"
       
       
